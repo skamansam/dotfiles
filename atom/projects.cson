@@ -1,0 +1,31 @@
+inventory:
+  title: "inventory"
+  paths: [
+    "/home/sam/workspace/inventory"
+    "/home/sam/workspace/optics"
+    "/home/sam/workspace/angular-datagrid"
+    "/home/sam/workspace/optoro_salesforce"
+  ]
+questlists:
+  title: "questlists"
+  paths: [
+    "/home/sam/workspace/questlists"
+    "/home/sam/src/minimongoid"
+    "/home/sam/workspace/meteor-elements"
+    "/home/sam/src/meteor-polymer-music"
+  ]
+pSaMS:
+  title: "pSaMS"
+  paths: [
+    "/home/sam/workspace/pSaMS"
+  ]
+optoro_extension:
+  title: "optoro_extension"
+  paths: [
+    "/home/sam/workspace/optoro_chrome_extension"
+  ]
+"paper-theme":
+  title: "Paper Desktop Theme"
+  paths: [
+    "/home/sam/workspace/paper-gtk-theme"
+  ]

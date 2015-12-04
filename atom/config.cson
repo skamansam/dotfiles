@@ -1,0 +1,58 @@
+"*":
+  "exception-reporting":
+    userId: "3a8a17ad-8a71-6911-f164-2ddff23b43f8"
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "atom-material-ui"
+      "rbe-matrix-syntax"
+    ]
+    disabledPackages: [
+      "polymer-snippets"
+      "autocomplete-polymer"
+      "autocomplete-polymer-project"
+      "rspec-tree-runner"
+    ]
+    openEmptyEditorOnStart: false
+    projectHome: "/home/sam/workspace"
+  editor:
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+    fontSize: 13
+  minimap:
+    plugins:
+      pigments: true
+      linter: true
+      "git-diff": true
+  "linter-rubocop": {}
+  linter:
+    showErrorTabLine: true
+  "atom-material-ui":
+    compactTreeView: true
+    depth: true
+    fontSize: "Big"
+    panelContrast: true
+    rippleAccentColor: true
+    showTabIcons: "Show on all tabs"
+    tabSize: "Small"
+    useRobotoInUI: true
+    ui:
+      accentColor: "Blue"
+    tabs:
+      rippleAccentColor: true
+      showTabIcons: "Show on all tabs"
+      tabSize: "Small"
+    fonts:
+      fontSize: "Big"
+    treeView:
+      compactTreeView: true
+    panels:
+      depth: true
+      panelContrast: true
+  "rspec-tree-runner": {}
+  "ruby-test":
+    specFramework: "rspec"
+    testFramework: "test"
+  "git-plus": {}

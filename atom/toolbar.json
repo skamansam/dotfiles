@@ -1,0 +1,127 @@
+[{
+  "type": "button",
+  "icon": "telescope",
+  "callback": "git-blame:toggle",
+  "tooltip": "Blame",
+  "iconset": ""
+}, {
+  "type": "button",
+  "icon": "octoface",
+  "callback": "open-on-github:blame",
+  "tooltip": "Blame on Github",
+  "iconset": ""
+}, {
+  "type": "button",
+  "icon": "move-left",
+  "callback": "tree-view:reveal-active-file",
+  "tooltip": "Reveal in Tree View",
+  "iconset": ""
+}, {
+  "type": "spacer"
+}, {
+  "type": "button",
+  "icon": "cubes",
+  "callback": "project-manager:list-projects",
+  "tooltip": "Show Project Manager",
+  "iconset": "fa"
+}, {
+    "type": "spacer"
+}, {
+  "type": "button",
+  "icon": "database",
+  "callback": "rails-transporter:open-model",
+  "tooltip": "Go To Model",
+  "iconset": "icomoon"
+}, {
+  "type": "button",
+  "icon": "tv",
+  "callback": "rails-transporter:open-view",
+  "tooltip": "Go To View",
+  "iconset": "icomoon"
+}, {
+  "type": "button",
+  "icon": "tree",
+  "callback": "rails-transporter:open-controller",
+  "tooltip": "Go To Controller",
+  "iconset": "icomoon"
+}, {
+  "type": "button",
+  "icon": "dice",
+  "callback": "rails-transporter:open-test",
+  "tooltip": "Go To Test",
+  "iconset": "icomoon"
+}, {
+  "type": "spacer"
+}, {
+  "type": "button",
+  "icon": "blind",
+  "tooltip": "Toggle Spec File",
+  "iconset": "fi",
+  "callback": "rails-rspec:toggle-spec-file"
+}, {
+  "type": "button",
+  "icon": "play",
+  "tooltip": "Test Current Line",
+  "iconset": "fi",
+  "callback": "ruby-test:test-single"
+}, {
+  "type": "button",
+  "icon": "bug",
+  "tooltip": "Test Current File",
+  "iconset": "fa",
+  "callback": "ruby-test:test-file"
+}, {
+  "type": "button",
+  "icon": "rocket",
+  "tooltip": "Convert to Ruby2 Hashes",
+  "callback": "hashy:convert",
+  "iconset": "fa"
+}, {
+  "type": "spacer"
+}, {
+  "type": "button",
+  "icon": "arrows-h",
+  "tooltip": "split right",
+  "iconset": "fa",
+  "callback": ["pane:split-right"]
+}, {
+  "type": "button",
+  "icon": "arrows-v",
+  "tooltip": "split down",
+  "iconset": "fa",
+  "callback": ["pane:split-down"]
+}, {
+  "type": "spacer"
+}, {
+  "type": "button",
+  "icon": "tree",
+  "tooltip": "Toggle Tree View",
+  "iconset": "fa",
+  "callback": "tree-view:toggle"
+}, {
+  "type": "button",
+  "icon": "code",
+  "tooltip": "Toggle Symbols Panel",
+  "iconset": "fa",
+  "callback": "symbols-tree-view:toggle"
+}, {
+  "type": "button",
+  "icon": "code-fork",
+  "tooltip": "Toggle Git Control",
+  "iconset": "fa",
+  "callback": "git-control:toggle"
+}, {
+  "type": "spacer"
+}, {
+  "type": "button",
+  "icon": "wrench",
+  "tooltip": "Edit Toolbar",
+  "iconset": "fa",
+  "callback": "flex-tool-bar:edit-config-file"
+}, {
+  "type": "button",
+  "icon": "cogs",
+  "tooltip": "Atom Settings",
+  "iconset": "fa",
+  "callback": "application:show-settings"
+}]

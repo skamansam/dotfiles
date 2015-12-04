@@ -1,0 +1,100 @@
+[
+  {
+    "type": "button",
+    "icon": "telescope",
+    "callback": "git-blame:toggle",
+    "tooltip": "Blame",
+    "iconset": ""
+  },
+  {
+    "type": "button",
+    "icon": "octoface",
+    "callback": "open-on-github:blame",
+    "tooltip": "Blame on Github",
+    "iconset": ""
+  },
+  {
+    "type": "button",
+    "icon": "move-left",
+    "callback": "tree-view:reveal-active-file",
+    "tooltip": "Reveal in Tree View",
+    "iconset": ""
+  },
+  {
+    "type": "spacer"
+  },
+  {
+    "type": "button",
+    "icon": "document",
+    "callback": "application:new-file",
+    "tooltip": "New File",
+    "iconset": "ion",
+    "mode": ""
+  },
+  {
+    "type": "button",
+    "icon": "folder-open-o",
+    "callback": "core:save",
+    "tooltip": "Open File",
+    "iconset": "fa"
+  },
+  {
+    "type": "button",
+    "icon": "save",
+    "callback": "core:save",
+    "tooltip": "Save File",
+    "iconset": "fa"
+  },
+  {
+    "type": "button",
+    "icon": "plus",
+    "callback": "application:add-project-folder",
+    "tooltip": "Add Folder to Project",
+    "iconset": "fa"
+  },
+  {
+    "type": "spacer"
+  },
+  {
+    "type": "button",
+    "icon": "qrcode",
+    "iconset": "fa",
+    "callback": "rails-rspec:toggle-spec-file"
+  },
+  {
+    "type": "button",
+    "icon": "rocket",
+    "iconset": "fa",
+    "callback": "hashy:convert"
+  },
+  {
+    "type": "spacer"
+  },
+  {
+    "type": "button",
+    "icon": "arrows-h",
+    "iconset": "fa",
+    "callback": ["pane:split-right"]
+  },
+  {
+    "type": "button",
+    "icon": "arrows-v",
+    "iconset": "fa",
+    "callback": ["pane:split-down"]
+  },
+  {
+    "type": "spacer"
+  },
+  {
+    "type": "button",
+    "icon": "wrench",
+    "iconset": "fa",
+    "callback":  "flex-tool-bar:edit-config-file"
+  },
+  {
+    "type": "button",
+    "icon": "cogs",
+    "iconset": "fa",
+    "callback":  "application:show-settings"
+  }
+]
