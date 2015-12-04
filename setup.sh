@@ -80,9 +80,17 @@ cd $SRC_DIR
 git clone https://github.com/snwh/paper-gtk-theme.git
 cd paper-gtk-theme
 bash install.sh
+report $? "Paper theme"
 
 echo "installing Paper icons"
 cd $SRC_DIR
 git clone https://github.com/snwh/paper-icon-theme.git
 cd paper-icon-theme
 ./install-icon-theme.sh
+report $? "Paper icons"
+
+echo "installing Bash-it"
+cd $SRC_DIR
+git clone https://github.com/Bash-it/bash-it.git
+ln -s $SRC_DIR/bash-it ~/.bash_it
+report $? "Bash-it"

@@ -8,7 +8,7 @@
 
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
-files="atom profile profile.d bashrc vimrc vim zshrc oh-my-zsh"    # list of files/folders to symlink in homedir
+files="atom profile profile.d bashrc bash_profile i3status.conf pryrc zlogin zshrc "    # list of files/folders to symlink in homedir
 
 ##########
 
@@ -29,3 +29,8 @@ for file in $files; do
     echo "Creating symlink to $file in home directory."
     ln -s $dir/$file ~/.$file
 done
+
+# the config directory just overrites whatever is in there.
+cd $dir
+cp -R config ~/.config
+cp my_mount ~/
