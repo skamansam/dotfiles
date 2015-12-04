@@ -1,0 +1,1 @@
+export PATH=$PATH:/home/sam/Applications/google_appengine:/home/sam/bin
