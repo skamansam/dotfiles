@@ -48,3 +48,9 @@ export SCM_CHECK=true
 export PATH=$HOME/.rvm/bin:$HOME/xsb/XSB/bin:$PATH # Add RVM to PATH for scripting
 
 #export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+export NVM_DIR="/home/sam/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+eval $(thefuck --alias)
+
+[[ -s "/home/sam/.gvm/scripts/gvm" ]] && source "/home/sam/.gvm/scripts/gvm"

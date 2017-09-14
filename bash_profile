@@ -11,3 +11,4 @@ fi
 source ~/.profile
 
 #export PATH=$PATH:$HOME/.local/bin:$HOME/bin
+eval $(thefuck --alias)

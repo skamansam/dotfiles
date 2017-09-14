@@ -1,58 +1,158 @@
 "*":
-  "exception-reporting":
-    userId: "3a8a17ad-8a71-6911-f164-2ddff23b43f8"
-  welcome:
-    showOnStartup: false
+  "atom-material-ui":
+    colors:
+      abaseColor: "#0062ff"
+      accentColor: "#1a00ff"
+      predefinedColor: "Green"
+    fonts:
+      fontSize: 17
+    tabs:
+      compactTabs: true
+    treeView:
+      compactList: true
+    ui:
+      panelContrast: true
+  "autocomplete-ruby":
+    rsensePath: "rsense"
   core:
+    disabledPackages: [
+      "linter-tidy"
+      "atom-htmltidy"
+      "language-rspec-plus"
+      "quick-query"
+      "quick-query-sqlite"
+      "tree-view-open-files"
+      "opened-files"
+      "guard-rspec"
+      "project-viewer"
+      "polymer-atom"
+      "rails-snippets"
+      "rails-partials"
+      "ruby-test"
+      "cucumber-step"
+      "php-integrator-symbol-viewer"
+      "test-gutter-rspec"
+      "test-status"
+      "angularjs"
+      "atom-polymer"
+      "autocomplete-polymer-project"
+      "browser-plus"
+      "close-tags"
+      "dash"
+      "git-control"
+      "git-log"
+      "git-plus"
+      "language-dot"
+      "graphviz-preview-plus"
+      "language-lua"
+      "language-polymer"
+      "linter-polylint"
+      "linter-polymer"
+      "polymer-ide"
+      "polymer-snippets"
+      "preview-plus"
+      "related"
+      "rspec-snippets"
+      "rspec-tree-runner"
+      "platformio-ide-terminal"
+      "project-view"
+      "xml-formatter"
+      "data-atom"
+    ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      "node_modules"
+      "tags"
+    ]
+    openEmptyEditorOnStart: false
+    projectHome: "/home/sam/workspace"
+    telemetryConsent: "limited"
     themes: [
       "atom-material-ui"
       "rbe-matrix-syntax"
     ]
-    disabledPackages: [
-      "polymer-snippets"
-      "autocomplete-polymer"
-      "autocomplete-polymer-project"
-      "rspec-tree-runner"
-    ]
-    openEmptyEditorOnStart: false
-    projectHome: "/home/sam/workspace"
+  "data-atom":
+    openDetailsViewWhenOpeningMainResultsView: true
   editor:
+    fontFamily: "'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'"
     invisibles: {}
+    preferredLineLength: 120
     showIndentGuide: true
     showInvisibles: true
-    fontSize: 13
+  "exception-reporting":
+    userId: "3a8a17ad-8a71-6911-f164-2ddff23b43f8"
+  "find-and-replace":
+    projectSearchResultsPaneSplitDirection: "right"
+    scrollToResultOnLiveSearch: true
+  "flex-tool-bar":
+    useBrowserPlusWhenItIsActive: true
+  "git-diff":
+    showIconsInEditorGutter: true
+  "git-log": {}
+  "git-plus":
+    general:
+      _analyticsUserId: "2a3d3adc-b5fb-4194-b147-7525d8c46c7e"
+  "graphviz-preview-plus": {}
+  jsformat:
+    format_on_save: false
+    keep_array_indentation: true
+    keep_function_indentation: true
+  linter: {}
+  "linter-haml": {}
+  "linter-polymer":
+    allMessages: true
+  "linter-rubocop": {}
+  "linter-tidy": {}
+  "linter-ui-default":
+    showPanel: true
   minimap:
     plugins:
-      pigments: true
-      linter: true
+      bookmarks: true
+      bookmarksDecorationsZIndex: 0
       "git-diff": true
-  "linter-rubocop": {}
-  linter:
-    showErrorTabLine: true
-  "atom-material-ui":
-    compactTreeView: true
-    depth: true
-    fontSize: "Big"
-    panelContrast: true
-    rippleAccentColor: true
-    showTabIcons: "Show on all tabs"
-    tabSize: "Small"
-    useRobotoInUI: true
-    ui:
-      accentColor: "Blue"
-    tabs:
-      rippleAccentColor: true
-      showTabIcons: "Show on all tabs"
-      tabSize: "Small"
-    fonts:
-      fontSize: "Big"
-    treeView:
-      compactTreeView: true
-    panels:
-      depth: true
-      panelContrast: true
+      "git-diffDecorationsZIndex": 0
+      linter: true
+      linterDecorationsZIndex: 0
+      pigments: true
+      pigmentsDecorationsZIndex: 0
+  pigments:
+    sortPaletteColors: "by name"
+  "preview-plus":
+    livePreview: true
+  "project-view":
+    displayPath: false
+  "project-viewer":
+    convertOldData: false
+    statusBarVisibility: true
+  "quick-query": {}
+  "rails-rspec": {}
   "rspec-tree-runner": {}
+  "rubocop-auto-correct": {}
   "ruby-test":
     specFramework: "rspec"
-    testFramework: "test"
-  "git-plus": {}
+    testFramework: "minitest"
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    syncHorizontalScroll: true
+  swackets:
+    colorParens: true
+    colorSquareBrackets: true
+  "symbols-tree-view": {}
+  tabs:
+    usePreviewTabs: true
+  "terminal-plus":
+    core:
+      autoRunCommand: "bash -l"
+      mapTerminalsToAutoOpen: true
+    style:
+      theme: "grass"
+  "tree-view": {}
+  welcome:
+    showOnStartup: false
+".js.source":
+  editor:
+    autoIndent: false

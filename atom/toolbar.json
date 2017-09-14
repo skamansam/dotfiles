@@ -1,15 +1,37 @@
 [{
   "type": "button",
+  "icon": "check-all",
+  "callback": "linter:lint",
+  "tooltip": "Lint File",
+  "iconset": "mdi"
+}, {
+    "type": "spacer"
+}, {
+  "type": "button",
+  "icon": "debug-step-into",
+  "callback": "symbols-view:go-to-declaration",
+  "tooltip": "Go To Declaration",
+  "iconset": "mdi"
+}, {
+    "type": "button",
+    "icon": "debug-step-out",
+    "callback": "symbols-view:return-from-declaration",
+    "tooltip": "Return From Declaration",
+    "iconset": "mdi"
+}, {
+  "type": "spacer"
+}, {
+  "type": "button",
   "icon": "telescope",
   "callback": "git-blame:toggle",
   "tooltip": "Blame",
   "iconset": ""
 }, {
   "type": "button",
-  "icon": "octoface",
+  "icon": "github-circle",
   "callback": "open-on-github:blame",
   "tooltip": "Blame on Github",
-  "iconset": ""
+  "iconset": "mdi"
 }, {
   "type": "button",
   "icon": "move-left",
@@ -20,10 +42,10 @@
   "type": "spacer"
 }, {
   "type": "button",
-  "icon": "cubes",
+  "icon": "book",
   "callback": "project-manager:list-projects",
   "tooltip": "Show Project Manager",
-  "iconset": "fa"
+  "iconset": "mdi"
 }, {
     "type": "spacer"
 }, {
@@ -31,72 +53,72 @@
   "icon": "database",
   "callback": "rails-transporter:open-model",
   "tooltip": "Go To Model",
-  "iconset": "icomoon"
+  "iconset": "mdi"
 }, {
   "type": "button",
-  "icon": "tv",
+  "icon": "view-dashboard",
   "callback": "rails-transporter:open-view",
   "tooltip": "Go To View",
-  "iconset": "icomoon"
+  "iconset": "mdi"
 }, {
   "type": "button",
-  "icon": "tree",
+  "icon": "google-controller",
   "callback": "rails-transporter:open-controller",
   "tooltip": "Go To Controller",
-  "iconset": "icomoon"
+  "iconset": "mdi"
 }, {
   "type": "button",
-  "icon": "dice",
+  "icon": "dice-5",
   "callback": "rails-transporter:open-test",
   "tooltip": "Go To Test",
-  "iconset": "icomoon"
+  "iconset": "mdi"
 }, {
   "type": "spacer"
 }, {
   "type": "button",
-  "icon": "blind",
+  "icon": "play-protected-content",
   "tooltip": "Toggle Spec File",
-  "iconset": "fi",
+  "iconset": "mdi",
   "callback": "rails-rspec:toggle-spec-file"
 }, {
   "type": "button",
-  "icon": "play",
+  "icon": "comment-check-outline",
   "tooltip": "Test Current Line",
-  "iconset": "fi",
+  "iconset": "mdi",
   "callback": "ruby-test:test-single"
 }, {
   "type": "button",
-  "icon": "bug",
+  "icon": "file-check",
   "tooltip": "Test Current File",
-  "iconset": "fa",
+  "iconset": "mdi",
   "callback": "ruby-test:test-file"
 }, {
   "type": "button",
   "icon": "rocket",
   "tooltip": "Convert to Ruby2 Hashes",
-  "callback": "hashy:convert",
-  "iconset": "fa"
+  "callback": "ruby-syntax-replacer:replace",
+  "iconset": "mdi"
 }, {
   "type": "spacer"
 }, {
   "type": "button",
-  "icon": "arrows-h",
+  "icon": "ray-start-arrow",
   "tooltip": "split right",
-  "iconset": "fa",
-  "callback": ["pane:split-right"]
+  "iconset": "mdi",
+  "callback": ["pane:split-right-and-move-active-item"]
 }, {
   "type": "button",
   "icon": "arrows-v",
   "tooltip": "split down",
   "iconset": "fa",
-  "callback": ["pane:split-down"]
+  "callback": ["pane:split-down-and-move-active-item"]
 }, {
   "type": "spacer"
 }, {
   "type": "button",
-  "icon": "tree",
+  "icon": "pine-tree",
   "tooltip": "Toggle Tree View",
-  "iconset": "fa",
+  "iconset": "mdi",
   "callback": "tree-view:toggle"
 }, {
   "type": "button",
@@ -111,13 +133,19 @@
   "iconset": "fa",
   "callback": "git-control:toggle"
 }, {
-  "type": "spacer"
-}, {
   "type": "button",
-  "icon": "wrench",
-  "tooltip": "Edit Toolbar",
-  "iconset": "fa",
-  "callback": "flex-tool-bar:edit-config-file"
+  "icon": "github-circle",
+  "callback": "github:toggle-github-tab",
+  "tooltip": "Open Github Tab",
+  "iconset": "mdi"
+}, {
+  "type": "spacer"
+  }, {
+    "type": "button",
+    "icon": "cog",
+    "tooltip": "Edit Toolbar",
+    "iconset": "fa",
+    "callback": "flex-tool-bar:edit-config-file"
 }, {
   "type": "button",
   "icon": "cogs",

@@ -1,31 +1,74 @@
-inventory:
-  title: "inventory"
-  paths: [
-    "/home/sam/workspace/inventory"
-    "/home/sam/workspace/optics"
-    "/home/sam/workspace/angular-datagrid"
-    "/home/sam/workspace/optoro_salesforce"
-  ]
-questlists:
-  title: "questlists"
-  paths: [
-    "/home/sam/workspace/questlists"
-    "/home/sam/src/minimongoid"
-    "/home/sam/workspace/meteor-elements"
-    "/home/sam/src/meteor-polymer-music"
-  ]
-pSaMS:
-  title: "pSaMS"
-  paths: [
-    "/home/sam/workspace/pSaMS"
-  ]
-optoro_extension:
-  title: "optoro_extension"
-  paths: [
-    "/home/sam/workspace/optoro_chrome_extension"
-  ]
-"paper-theme":
-  title: "Paper Desktop Theme"
-  paths: [
-    "/home/sam/workspace/paper-gtk-theme"
-  ]
+[
+  {
+    title: "inventory"
+    paths: [
+      "/home/sam/workspace/inventory"
+      "/home/sam/workspace/receiving"
+      "/home/sam/workspace/optics"
+    ]
+    exclusions: [
+      "tags"
+      ".git/*"
+      "log/*.log"
+    ]
+    "opened-files": [
+      "/home/sam/workspace/inventory/app/interactors/disposition_override_interactor/available_unit_overrides.rb"
+      "/home/sam/workspace/inventory/app/controllers/bin_changes_controller.rb"
+      "/home/sam/workspace/optics/app/mobile/scripts/unit_bin_change/controllers/bin_change_unit.coffee"
+      "/home/sam/workspace/optics/app/mobile/scripts/unit_bin_change/services/bin_change.es6"
+      "/home/sam/workspace/inventory/app/interactors/disposition_override_interactor.rb"
+      "/home/sam/workspace/inventory/app/interactors/disposition_override_interactor/unit_overrider.rb"
+      "/home/sam/workspace/inventory/app/interactors/unit_interactor/change_storage_location.rb"
+      "/home/sam/workspace/inventory/spec/models/location_move_validation_spec.rb"
+      "/home/sam/workspace/inventory/app/models/storage_location/tote.rb"
+      "/home/sam/workspace/inventory/app/models/storage_location/behaviors/movable.rb"
+      "/home/sam/workspace/inventory/app/interactors/storage_location_change_interactor.rb"
+      "/home/sam/workspace/inventory/app/models/storage_location.rb"
+      "/home/sam/workspace/inventory/app/models/storage_location/cart.rb"
+    ]
+  }
+  {
+    title: "questlists"
+    paths: [
+      "/home/sam/workspace/questlists"
+      "/home/sam/workspace/questlists-navigation"
+      "/home/sam/workspace/octopress"
+      "/home/sam/workspace/pSaMS"
+      "/home/sam/workspace/firebase-test"
+    ]
+  }
+  {
+    title: "pSaMS"
+    paths: [
+      "/home/sam/workspace/pSaMS"
+    ]
+  }
+  {
+    title: "optoro_extension"
+    paths: [
+      "/home/sam/workspace/optoro_chrome_extension"
+    ]
+  }
+  {
+    title: "Paper Desktop Theme"
+    paths: [
+      "/home/sam/workspace/paper-gtk-theme"
+    ]
+  }
+  {
+    title: "gs-bar"
+    paths: [
+      "/home/sam/workspace/gs-bar"
+      "/home/sam/src/gnome-shell-extension-freon"
+      "/home/sam/src/Bottom_Panel@rmy.pobox.com"
+    ]
+  }
+  {
+    title: "Poly Exam"
+    paths: [
+      "/home/sam/workspace/poly-exam/poly-exam-builder"
+      "/home/sam/workspace/poly-exam/poly-exam-question-card"
+      "/home/sam/workspace/poly-exam/poly-exam-item-builder"
+    ]
+  }
+]

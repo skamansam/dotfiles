@@ -1,5 +1,5 @@
 # mounts an encrypted volume
 mkdir -p ~/mnt/iso
-sudo losetup /dev/loop1 $1
-sudo cryptsetup --type luks open /dev/loop1 $1
+sudo losetup /dev/loop99 $1
+sudo cryptsetup --type luks open /dev/loop99 $1
 sudo mount /dev/mapper/$1 ~/mnt/iso

@@ -48,10 +48,11 @@ prompt() {
 	then
 		# Yes, the indenting on these is weird, but it has to be like
 		# this otherwise it won't display properly.
-
+		#notify-send -u critical -i "/home/sam/.local/share/icons/Paper/symbolic/status/dialog-error-symbolic.svg" "$BASH_COMMAND has failed" "Command has finished and failed."
 		PS1="${TITLEBAR}${bold_red}┌─[${reset_color}$(modern_scm_prompt)[${cyan}\W${normal}]$(is_vim_shell)
 ${bold_red}└─▪${normal} "
 	else
+		#notify-send -u normal -i "/home/sam/.local/share/icons/Paper/symbolic/status/dialog-information-symbolic.svg" "$BASH_COMMAND has finished" "Command has finished and succeeded."
 		PS1="${TITLEBAR}┌─[$(modern_scm_prompt)[${cyan}\W${normal}]$(is_vim_shell)
 └─▪ "
 	fi
